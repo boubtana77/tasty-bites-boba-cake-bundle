@@ -888,9 +888,9 @@ body::before {
      UPSELL POPUP MODAL
      
      YES  → https://payhip.com/buy?link=fF8Yy  (bundle $14.99)
-     NO   → MAIN_PRODUCT_CHECKOUT_URL          (single $7.99)
+     NO   → https://payhip.com/buy?link=kH07y          (single $7.99)
      
-     ⚠️  Replace MAIN_PRODUCT_CHECKOUT_URL below with your
+     ⚠️  Replace https://payhip.com/buy?link=kH07y below with your
          real Payhip single-product checkout link.
 ===================================================== -->
 <div class="modal-backdrop" id="modalBackdrop" onclick="handleBackdropClick(event)">
@@ -955,10 +955,10 @@ body::before {
 <script>
 /* ============================================================
    CHECKOUT LINKS
-   ⚠️  Replace MAIN_PRODUCT_CHECKOUT_URL with your real link.
+   ⚠️  Replace https://payhip.com/buy?link=kH07y with your real link.
    The bundle link must NOT be changed.
 ============================================================ */
-const URL_SINGLE = 'MAIN_PRODUCT_CHECKOUT_URL';          // ← replace with real Payhip single link
+const URL_SINGLE = 'https://payhip.com/buy?link=kH07y';          // ← replace with real Payhip single link
 const URL_BUNDLE = 'https://payhip.com/buy?link=fF8Yy';  // ← DO NOT CHANGE
 
 /* ---- Modal open / close ---- */
